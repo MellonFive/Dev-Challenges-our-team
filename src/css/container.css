@@ -1,0 +1,27 @@
+/* 
+Aplicando conceitos de mobile first. 
+Lembrar disso quando for fazer responsivo. 
+Sempre a partir de agora começando pelo responsivo. 
+*/
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--white-gray);
+
+  padding: 2rem;
+  margin: 2rem auto;
+
+  max-width: 35rem;
+
+  border-radius: 1rem;
+
+  width: 100%;
+}
