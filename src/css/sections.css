@@ -1,0 +1,17 @@
+section.first-container > .team-apresentation {
+    color: var(--blue);
+    
+    font-size: 1.2rem;
+}
+
+section.first-container > .team-apresentation + /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */ .title {
+    font-size: 2.2rem;
+ 
+    margin: 1.5rem 0;
+}
+
+section.first-container > .team-apresentation + .title + .description {
+    font-size: 1rem;
+    
+    margin-bottom: 2rem;
+}
