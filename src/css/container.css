@@ -4,7 +4,7 @@ Lembrar disso quando for fazer responsivo.
 Sempre a partir de agora começando pelo responsivo. 
 */
 
-body {
+body * {
   font-family: "Outfit", sans-serif;
 }
 
