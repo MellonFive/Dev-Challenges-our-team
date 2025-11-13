@@ -4,7 +4,7 @@ section.first-container > .team-apresentation {
     font-size: 1.2rem;
 }
 
-section.first-container > .team-apresentation + /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */ .title {
+section.first-container > .team-apresentation + .title /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */ {
     font-size: 2.2rem;
  
     margin: 1.5rem 0;
