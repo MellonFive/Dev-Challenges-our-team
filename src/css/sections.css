@@ -1,9 +1,8 @@
 section.first-container .our-team {
-    background-color: red;
     padding: 1.5rem 1.5rem;
 }
 
-section.first-container > .our-team .team-apresentation {
+section.first-container > .our-team > .team-apresentation {
     color: var(--blue);
     
     font-size: 1.2rem;
@@ -11,12 +10,14 @@ section.first-container > .our-team .team-apresentation {
 
 section.first-container > .our-team > .team-apresentation + .title { /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
     font-size: 2.2rem;
+
+    margin-top: 1rem;
 }
 
 section.first-container > .our-team > .team-apresentation + .title + .description {
     font-size: 1rem;
     
-    margin-bottom: 2rem;
+    margin: 1rem 0;
 }
 
 .first-container > .team > .info-team {
@@ -26,8 +27,32 @@ section.first-container > .our-team > .team-apresentation + .title + .descriptio
     position: relative;
 }
 
-.first-container > .team > .info-team:nth-child(1) > img {
+.first-container > .team > .info-team:nth-child(1) /* Dá para pegar a imagem com before e after? */ > img {
     width: 100%;
 
     background-color: var(--light-violet);
+}
+
+.first-container > .team > .info-team > .name-and-profession {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+
+    color: var(--white);
+}
+
+.first-container > .team > .info-team > .name-and-profession > .name {
+    font-size: 1.5rem;
+}
+
+.first-container > .team > .info-team > .name-and-profession > .profession {
+    font-size: 1.1rem;
+
+    margin-top: .5rem;
+}
+
+.first-container > .team > .info-team:nth-child(2) > img {
+    width: 100%;
+
+    background-color: var(--light-green);
 }
