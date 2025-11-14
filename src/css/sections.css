@@ -1,16 +1,19 @@
-section.first-container > .team-apresentation {
+section.first-container .our-team {
+    background-color: red;
+    padding: 1.5rem 1.5rem;
+}
+
+section.first-container > .our-team .team-apresentation {
     color: var(--blue);
     
     font-size: 1.2rem;
 }
 
-section.first-container > .team-apresentation + .title { /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
+section.first-container > .our-team > .team-apresentation + .title { /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
     font-size: 2.2rem;
- 
-    margin: 1.5rem 0;
 }
 
-section.first-container > .team-apresentation + .title + .description {
+section.first-container > .our-team > .team-apresentation + .title + .description {
     font-size: 1rem;
     
     margin-bottom: 2rem;
@@ -25,7 +28,6 @@ section.first-container > .team-apresentation + .title + .description {
 
 .first-container > .team > .info-team:nth-child(1) > img {
     width: 100%;
-
 
     background-color: var(--light-violet);
 }
