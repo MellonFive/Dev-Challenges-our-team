@@ -16,7 +16,7 @@ main {
 
   background-color: var(--white-gray);
 
-  padding: 2rem 1rem;
+  padding: 0 1rem;
   margin: 2rem auto;
 
   max-width: 30rem;
