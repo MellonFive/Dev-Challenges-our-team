@@ -1,6 +1,6 @@
 .first-container .our-team {
     margin: 2rem 0 4rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
 }
 
 .first-container > .our-team > .team-apresentation {
@@ -44,22 +44,22 @@
 .first-container > .team > .info-team > .name-and-profession, 
 .second-container > .team > .info-team > .name-and-profession {
     position: absolute;
-    top: 80%;
-    left: 10%;
+    top: 75%;
+    left: 7%;
 
     color: var(--white);
 }
 
 .first-container > .team > .info-team > .name-and-profession > .name,
 .second-container > .team > .info-team > .name-and-profession > .name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .first-container > .team > .info-team > .name-and-profession > .profession,
 .second-container > .team > .info-team > .name-and-profession > .profession {
     font-size: 1.1rem;
 
-    margin-top: 1.3rem;
+    margin-top: 1rem;
 }
 
 .first-container > .team > .info-team:nth-child(2) > img {
