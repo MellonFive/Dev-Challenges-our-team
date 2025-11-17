@@ -105,7 +105,9 @@
     left: 5%;
     
     color: var(--black-gray);
+
     font-weight: 600;
+    font-size: 1.1rem;
     
     cursor: pointer;
 }
