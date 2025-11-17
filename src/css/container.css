@@ -12,10 +12,10 @@ body * {
   font-family: "Outfit", sans-serif;
 }
 
-main {
+main {  /* Consigo a main logo com mobile first usando grid e depois adaptando com media queries? */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   
   background-color: var(--white-gray);
