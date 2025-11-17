@@ -92,3 +92,20 @@
 .second-container > .team > .info-team:nth-child(4) > img {
     background-color: var(--light-green);
 }
+
+.second-container > .team > .members-mobile {
+    height: 30rem;
+
+    position: relative;
+}
+
+.second-container > .team > .members-mobile > .members {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    
+    color: var(--black-gray);
+    font-weight: 600;
+    
+    cursor: pointer;
+}
