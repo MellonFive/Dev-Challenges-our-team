@@ -9,7 +9,6 @@
     font-size: 1.1rem;
 
     margin-top: 1rem;
-
 }
 
 .first-container > .our-team > .team-apresentation + .title { /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
