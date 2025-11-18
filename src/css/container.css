@@ -1,9 +1,3 @@
-/* 
-Aplicando conceitos de mobile first. 
-Lembrar disso quando for fazer responsivo. 
-Sempre a partir de agora começando pelo responsivo. 
-*/
-
 html {
   background-color: #000;
 }
@@ -12,7 +6,7 @@ body * {
   font-family: "Outfit", sans-serif;
 }
 
-main {  /* Consigo a main logo com mobile first usando grid e depois adaptando com media queries? */
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
