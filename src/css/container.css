@@ -12,9 +12,9 @@ main {
   justify-content: center;
   
   background-color: var(--white-gray);
-  background-image: url(../resources/Background_decor.svg);
 
   margin: 2rem auto;
+  padding: 0 .5rem;
 
   width: 100%;
   
