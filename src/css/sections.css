@@ -1,4 +1,6 @@
 .first-container .our-team {
+  background-image: url(../resources/Background_decor.svg);
+
     margin: 2rem 0 4rem;
     padding: 0 2rem;
 }
@@ -20,9 +22,7 @@
 
 .first-container > .our-team > .team-apresentation + .title + .description {
     font-size: .9rem;
-    
-    margin: 1rem 0;
-    
+        
     color: var(--black-gray);
 }
 
@@ -98,15 +98,21 @@
     position: relative;
 }
 
-.second-container > .team > .members-mobile > .members {
+.second-container > .team > .members-mobile > .group-members {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
     position: absolute;
     top: 90%;
     left: 5%;
-    
+}
+
+.second-container > .team > .members-mobile > .group-members > .members {
     color: var(--black-gray);
 
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     
     cursor: pointer;
 }
