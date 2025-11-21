@@ -7,10 +7,6 @@ body * {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
   background-color: var(--white-gray);
 
   margin: 2rem auto;
@@ -21,4 +17,9 @@ main {
   max-width: 23rem;
 
   border-radius: 1rem;
+}
+
+.first-container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
 }
