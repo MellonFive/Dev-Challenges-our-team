@@ -1,0 +1,27 @@
+header {
+    background-image: url(../resources/Background_decor.svg); 
+        
+    padding: 1rem 2rem 4rem;
+}
+
+header > .team-apresentation {
+    color: var(--blue);
+
+    font-size: 1.1rem;
+
+    margin-top: 1rem;
+}
+
+header > .team-apresentation + .title {
+    /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
+    font-size: 2.1rem;
+    font-weight: 600;
+
+    margin: 1.5rem 0;
+}
+
+header > .team-apresentation + .title + .description {
+    font-size: .9rem;
+
+    color: var(--black-gray);
+}
