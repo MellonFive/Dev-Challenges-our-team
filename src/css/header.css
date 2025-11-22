@@ -16,7 +16,7 @@ header > .team-apresentation + .title {
     /* Mais(+) para pegar o elemento de baixo. (Será que estou certo?) */
     font-size: 2.1rem;
     font-weight: 600;
-
+    
     margin: 1.5rem 0;
 }
 
@@ -24,4 +24,24 @@ header > .team-apresentation + .title + .description {
     font-size: .9rem;
 
     color: var(--black-gray);
+}
+
+@media (min-width: 1024px) {
+    header {
+        background-image: url(../resources/Background_decor@2x.png); 
+        
+        width: 100%;
+    }
+
+    header > .team-apresentation + .title {
+        font-size: 2.5rem;
+
+        margin: 1rem 0;
+    }
+    
+    header > .team-apresentation + .title + .description {
+        background-color: red;
+        width: 50%;
+        font-size: 1rem;
+    }
 }
