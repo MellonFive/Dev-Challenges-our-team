@@ -88,9 +88,3 @@
 
     margin-top: 1rem;
 }
-
-@media (min-width: 1024px) {  
-    .first-container > .team > .info-team:nth-child(1) > img {
-        width: 10px;
-    }
-}
