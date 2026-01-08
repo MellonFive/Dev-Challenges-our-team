@@ -10,6 +10,15 @@ header > .team-apresentation {
     font-size: 1.1rem;
 
     margin-top: 1rem;
+
+    width: 28%;
+}
+
+header > .team-apresentation:hover {
+    text-decoration: underline;
+
+    cursor: pointer;
+
 }
 
 header > .team-apresentation + .title {
