@@ -5,14 +5,18 @@ main {
 }
 
 .container {
+  background-color: red;
+  
   display: grid;
-
   grid-template-areas:
     "header employers employers"
     "members employers employers employers";
 
-  background-color: red;
-  width: 90%;
   max-width: 1200px;
+
+  width: 90%;
+
   margin: 0 auto;
 }
+
+
