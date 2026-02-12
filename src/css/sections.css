@@ -1,0 +1,47 @@
+img {
+    width: 20rem;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    background: var(--white-gray) url(../resources/Background_decor.svg) no-repeat center / contain;
+
+    border-top-left-radius: 2rem;
+
+    width: 100%;
+}
+
+header > .apresentation {
+    padding: 3rem 3rem;
+}
+
+header > .apresentation > .team {
+    color: var(--blue);
+
+    font-weight: bold;
+}
+
+header > .apresentation > .title {
+    margin-top: 1rem;
+
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+header > .apresentation > .description {
+    margin-top: 2rem;
+
+    width: 75%;
+
+    color: var(--black-gray);
+
+    line-height: 1.5rem;
+}
+
+.employers {
+    display: flex;
+}
