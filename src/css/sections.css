@@ -1,5 +1,6 @@
 img {
     width: 20rem;
+    /* height: 100%; */
 }
 
 .first-section {
@@ -42,6 +43,20 @@ header > .apresentation > .description {
     line-height: 1.5rem;
 }
 
-.employers {
+.first-section > .employers,
+.second-section > .employers {
     display: flex;
+    
+    position: relative;
+}
+
+.first-section > .employers > .first-employer {
+    background-color: var(--light-violet);
+}
+
+.first-section > .employers > .first-employer > .informations {
+    position: absolute;
+    bottom: 0%;
+
+    background-color: red;
 }
