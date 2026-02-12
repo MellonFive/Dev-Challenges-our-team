@@ -1,11 +1,7 @@
-img {
-    width: 20rem;
-    /* height: 100%; */
-}
-
 .first-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 1fr;
+    grid-template-rows: 40rem;
 }
 
 header {
@@ -17,30 +13,33 @@ header {
 }
 
 header > .apresentation {
-    padding: 3rem 3rem;
+    padding: 7rem 3rem;
 }
 
 header > .apresentation > .team {
     color: var(--blue);
 
     font-weight: bold;
+    font-size: 1.7rem;
 }
 
 header > .apresentation > .title {
     margin-top: 1rem;
 
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: normal;
 }
 
 header > .apresentation > .description {
     margin-top: 2rem;
 
-    width: 75%;
+    font-size: 1.7rem;
+
+    width: 90%;
 
     color: var(--black-gray);
 
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
 }
 
 .first-section > .employers,
@@ -54,9 +53,23 @@ header > .apresentation > .description {
     background-color: var(--light-violet);
 }
 
+.first-section > .employers > .first-employer > .image-first {
+    width: 100%;
+    height: 100%;
+}
+
 .first-section > .employers > .first-employer > .informations {
     position: absolute;
-    bottom: 0%;
+    bottom: 4%;
+    left: 2%;
 
-    background-color: red;
+    color: var(--white);
+}
+
+.first-section > .employers > .first-employer > .informations > .name {
+    font-size: 2.5rem;
+}
+
+.first-section > .employers > .first-employer > .informations > .profission {
+    font-size: 2rem;
 }
