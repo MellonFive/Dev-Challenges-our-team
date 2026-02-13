@@ -87,3 +87,8 @@ header > .apresentation > .description {
     font-size: 2rem;
 }
 
+.second-section > .employers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
