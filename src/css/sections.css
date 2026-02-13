@@ -1,6 +1,6 @@
 .first-section {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 40rem;
 }
 
@@ -35,7 +35,7 @@ header > .apresentation > .description {
 
     font-size: 1.7rem;
 
-    width: 90%;
+    width: 75%;
 
     color: var(--black-gray);
 
@@ -45,31 +45,45 @@ header > .apresentation > .description {
 .first-section > .employers,
 .second-section > .employers {
     display: flex;
-    
-    position: relative;
 }
 
 .first-section > .employers > .first-employer {
     background-color: var(--light-violet);
 }
 
-.first-section > .employers > .first-employer > .image-first {
+.first-section > .employers > .second-employer {
+    background-color:  var(--pink);
+
+    border-top-right-radius: 2rem;
+}
+
+.first-section > .employers > .first-employer, 
+.first-section > .employers > .second-employer {
+    position: relative;
+}
+
+.first-section > .employers > .first-employer > .image-first, 
+.first-section > .employers > .second-employer > .image-second {
     width: 100%;
     height: 100%;
 }
 
-.first-section > .employers > .first-employer > .informations {
+.first-section > .employers > .first-employer > .informations,
+.first-section > .employers > .second-employer > .informations {
     position: absolute;
     bottom: 4%;
-    left: 2%;
+    left: 4%;
 
     color: var(--white);
 }
 
-.first-section > .employers > .first-employer > .informations > .name {
+.first-section > .employers > .first-employer > .informations > .name, 
+.first-section > .employers > .second-employer > .informations > .name  {
     font-size: 2.5rem;
 }
 
-.first-section > .employers > .first-employer > .informations > .profission {
+.first-section > .employers > .first-employer > .informations > .profission, 
+.first-section > .employers > .second-employer > .informations > .profission {
     font-size: 2rem;
 }
+
