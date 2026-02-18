@@ -133,10 +133,18 @@ header > .apresentation > .description {
 }
 
 .second-section > .employers > .third-employer > .informations {
-    background-color: red;
-
     position: absolute;
 
     bottom: 25%;
     left: 5%;
+
+    color: var(--white);
+}
+
+.second-section > .employers > .third-employer > .informations > .name {
+    font-size: 2.5rem;
+}
+
+.second-section > .employers > .third-employer > .informations > .profission {
+    font-size: 2rem;
 }
