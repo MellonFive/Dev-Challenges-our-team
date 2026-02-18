@@ -1,7 +1,7 @@
 .first-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40rem;
+    grid-template-rows: 38rem;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 header > .apresentation {
-    padding: 7rem 3rem;
+    padding: 7rem 4rem;
 }
 
 header > .apresentation > .team {
@@ -90,5 +90,53 @@ header > .apresentation > .description {
 .second-section > .employers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+.second-section > .employers > .members {
+    border-bottom-left-radius: 3rem;
+    
+    background: var(--white-gray) url(../resources/Background_decor@2x.png) no-repeat center / contain;
+    
+    display: flex;
+    gap: .5rem;
+    align-items: flex-end;
+
+    font-weight: bold;
+
+
+    height: 80%;
 }
 
+.second-section > .employers > .members > .arrow-img {
+    width: 2rem;
+
+    padding-bottom: 3rem;
+}
+
+.second-section > .employers > .members > .paragraph {
+    font-size: 1.7rem;
+    color: var(--black-gray);
+
+    margin-left: 4rem;
+    padding-bottom: 3rem;
+}
+
+.second-section > .employers > .third-employer {
+    width: 100%;
+    position: relative;
+}
+
+.second-section > .employers > .third-employer > .image-third {
+    width: 100%;
+
+    background-color: var(--light-blue);
+}
+
+.second-section > .employers > .third-employer > .informations {
+    background-color: red;
+
+    position: absolute;
+
+    bottom: 25%;
+    left: 5%;
+}
