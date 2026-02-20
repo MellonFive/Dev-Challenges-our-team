@@ -160,13 +160,13 @@ header > .apresentation > .description {
 .second-section > .employers > .third-employer > .informations > .name,
 .second-section > .employers > .forth-employer > .informations > .name,
 .second-section > .employers > .five-employer > .informations > .name {
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 .second-section > .employers > .third-employer > .informations > .profission,
 .second-section > .employers > .forth-employer > .informations > .profission,
 .second-section > .employers > .five-employer > .informations > .profission {
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     margin-top: 1rem;
 }
