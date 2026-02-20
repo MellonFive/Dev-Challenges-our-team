@@ -1,13 +1,13 @@
 .first-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 38rem;
+    grid-template-rows: 40rem;
 }
 
 header {
     background: var(--white-gray) url(../resources/Background_decor.svg) no-repeat center / contain;
 
-    border-top-left-radius: 2rem;
+    border-top-left-radius: 5rem;
 
     width: 100%;
 }
@@ -20,26 +20,26 @@ header > .apresentation > .team {
     color: var(--blue);
 
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
 }
 
 header > .apresentation > .title {
     margin-top: 1rem;
 
-    font-size: 5rem;
-    font-weight: normal;
+    font-size: 6rem;
+    font-weight: bold;
 }
 
 header > .apresentation > .description {
-    margin-top: 2rem;
+    margin-top: 1rem;
 
-    font-size: 1.7rem;
+    font-size: 2.5rem;
 
-    width: 75%;
+    width: 90%;
 
     color: var(--black-gray);
 
-    /* line-height: 1.5rem; */
+    line-height: 3rem;
 }
 
 .first-section > .employers,
@@ -54,46 +54,44 @@ header > .apresentation > .description {
 .first-section > .employers > .second-employer {
     background-color:  var(--pink);
 
-    border-top-right-radius: 2rem;
+    border-top-right-radius: 5rem;
 }
 
 .first-section > .employers > .first-employer, 
 .first-section > .employers > .second-employer {
     position: relative;
-}
 
-.first-section > .employers > .first-employer > .image-first, 
-.first-section > .employers > .second-employer > .image-second {
     width: 100%;
-    height: 100%;
 }
 
 .first-section > .employers > .first-employer > .informations,
 .first-section > .employers > .second-employer > .informations {
     position: absolute;
-    bottom: 4%;
-    left: 4%;
+    bottom: 6%;
+    left: 5%;
 
     color: var(--white);
 }
 
 .first-section > .employers > .first-employer > .informations > .name, 
 .first-section > .employers > .second-employer > .informations > .name  {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 .first-section > .employers > .first-employer > .informations > .profission, 
 .first-section > .employers > .second-employer > .informations > .profission {
     font-size: 2rem;
+
+    margin-top: 1rem;
 }
 
 .second-section > .employers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
- }
+}
 
 .second-section > .employers > .members {
-    border-bottom-left-radius: 3rem;
+    border-bottom-left-radius: 5rem;
     
     background: var(--white-gray) url(../resources/Background_decor@2x.png) no-repeat center / contain;
     
@@ -103,8 +101,7 @@ header > .apresentation > .description {
 
     font-weight: bold;
 
-
-    height: 80%;
+    width: 100%;
 }
 
 .second-section > .employers > .members > .arrow-img {
@@ -114,37 +111,62 @@ header > .apresentation > .description {
 }
 
 .second-section > .employers > .members > .paragraph {
-    font-size: 1.7rem;
+    font-size: 2.3rem;
+    
     color: var(--black-gray);
 
-    margin-left: 4rem;
+    margin-left: 5rem;
     padding-bottom: 3rem;
 }
 
-.second-section > .employers > .third-employer {
+.second-section > .employers > .third-employer,
+.second-section > .employers > .forth-employer,
+.second-section > .employers > .five-employer {
     width: 100%;
+
     position: relative;
 }
 
-.second-section > .employers > .third-employer > .image-third {
+.second-section > .employers > .third-employer > .image-third,
+.second-section > .employers > .forth-employer > .image-forth,
+.second-section > .employers > .five-employer > .image-fith {
     width: 100%;
+}
 
+.second-section > .employers > .third-employer > .image-third {
     background-color: var(--light-blue);
 }
 
-.second-section > .employers > .third-employer > .informations {
-    position: absolute;
+.second-section > .employers > .forth-employer > .image-forth {
+    background-color: var(--light-orange);
+}
 
-    bottom: 25%;
+.second-section > .employers > .five-employer > .image-fith {
+    background-color: var(--light-green);
+
+    border-bottom-right-radius: 5rem;
+}
+
+.second-section > .employers > .third-employer > .informations,
+.second-section > .employers > .forth-employer > .informations,
+.second-section > .employers > .five-employer > .informations {
+    position: absolute;
+    bottom: 6%;
     left: 5%;
 
     color: var(--white);
 }
 
-.second-section > .employers > .third-employer > .informations > .name {
-    font-size: 2.5rem;
+.second-section > .employers > .third-employer > .informations > .name,
+.second-section > .employers > .forth-employer > .informations > .name,
+.second-section > .employers > .five-employer > .informations > .name {
+    font-size: 3.2rem;
 }
 
-.second-section > .employers > .third-employer > .informations > .profission {
+.second-section > .employers > .third-employer > .informations > .profission,
+.second-section > .employers > .forth-employer > .informations > .profission,
+.second-section > .employers > .five-employer > .informations > .profission {
     font-size: 2rem;
+
+    margin-top: 1rem;
 }
