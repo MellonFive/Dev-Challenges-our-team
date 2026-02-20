@@ -19,7 +19,7 @@ header > .apresentation {
 header > .apresentation > .team {
     color: var(--blue);
 
-    font-weight: bold;
+    font-weight: 600;
     font-size: 2.5rem;
 }
 
