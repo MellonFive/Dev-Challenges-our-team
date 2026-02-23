@@ -1,5 +1,27 @@
-@media (1024px <= width <= 1279px) {
-    body {
-        background-color: red;
-    }
+@media (max-width: 1024px) {
+  .first-section {
+    padding: 0 2rem;
+
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  header > .apresentation > .team {
+    font-size: 2.5rem;
+  }
+
+  header > .apresentation > .title {
+    font-size: 5rem;
+  }
+
+  header > .apresentation > .description {
+    width: 75%;
+
+    font-size: 2.2rem;
+  }
 }
