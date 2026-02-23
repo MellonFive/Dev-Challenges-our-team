@@ -1,172 +1,87 @@
-.first-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40rem;
+.grid-container {
+  display: grid;
+  /* Criamos 3 colunas iguais */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 40px 20px;
+
+
+  /* Mapeamos as posições do layout */
+  grid-template-areas:
+    "intro   card1   card2"
+    "link    card3   card4"
+    ".       card5   .    ";
 }
 
-header {
-    background: var(--white-gray) url(../resources/Background_decor.svg) no-repeat center / contain;
-
-    border-top-left-radius: 5rem;
-
-    width: 100%;
+/* Atribuindo as áreas */
+.intro {
+  grid-area: intro;
+  padding-right: 20px;
 }
 
-header > .apresentation {
-    padding: 7rem 4rem;
+.see-all {
+  grid-area: link;
+  align-self: end;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
 }
 
-header > .apresentation > .team {
-    color: var(--blue);
-
-    font-weight: 500;
-    font-size: 2.5rem;
+/* Identificando cada card na posição correta */
+.card:nth-of-type(1) {
+  grid-area: card1;
+}
+.card:nth-of-type(2) {
+  grid-area: card2;
+}
+.card:nth-of-type(3) {
+  grid-area: card3;
+}
+.card:nth-of-type(4) {
+  grid-area: card4;
+}
+.card:nth-of-type(5) {
+  grid-area: card5;
 }
 
-header > .apresentation > .title {
-    margin-top: 1rem;
-
-    font-size: 6rem;
-    font-weight: 500;
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  aspect-ratio: 4 / 5; /* Mantém a proporção vertical da foto */
 }
 
-header > .apresentation > .description {
-    margin-top: 1rem;
-
-    font-size: 2.5rem;
-
-    width: 90%;
-
-    color: var(--black-gray);
-
-    line-height: 3rem;
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a foto preencha o espaço sem distorcer */
+  display: block;
 }
 
-.first-section > .employers,
-.second-section > .employers {
-    display: flex;
+.card .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+
+  /* O segredo do layout: um degradê de preto (transparente para opaco) */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
 }
 
-.first-section > .employers > .first-employer {
-    background-color: var(--light-violet);
+.card .info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-.first-section > .employers > .second-employer {
-    background-color:  var(--pink);
-
-    border-top-right-radius: 5rem;
-}
-
-.first-section > .employers > .first-employer, 
-.first-section > .employers > .second-employer {
-    position: relative;
-
-    width: 100%;
-}
-
-.first-section > .employers > .first-employer > .informations,
-.first-section > .employers > .second-employer > .informations {
-    position: absolute;
-    bottom: 6%;
-    left: 5%;
-
-    color: var(--white);
-}
-
-.first-section > .employers > .first-employer > .informations > .name, 
-.first-section > .employers > .second-employer > .informations > .name  {
-    font-size: 2.8rem;
-}
-
-.first-section > .employers > .first-employer > .informations > .profission, 
-.first-section > .employers > .second-employer > .informations > .profission {
-    font-size: 2rem;
-
-    margin-top: 1rem;
-}
-
-.second-section > .employers {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.second-section > .employers > .members {
-    border-bottom-left-radius: 5rem;
-    
-    background: var(--white-gray) url(../resources/Background_decor@2x.png) no-repeat center / contain;
-    
-    display: flex;
-    gap: .5rem;
-    align-items: flex-end;
-
-    font-weight: bold;
-
-    width: 100%;
-}
-
-.second-section > .employers > .members > .arrow-img {
-    width: 2rem;
-
-    padding-bottom: 3rem;
-}
-
-.second-section > .employers > .members > .paragraph {
-    font-size: 2.3rem;
-    
-    color: var(--black-gray);
-
-    margin-left: 5rem;
-    padding-bottom: 3rem;
-}
-
-.second-section > .employers > .third-employer,
-.second-section > .employers > .forth-employer,
-.second-section > .employers > .five-employer {
-    width: 100%;
-
-    position: relative;
-}
-
-.second-section > .employers > .third-employer > .image-third,
-.second-section > .employers > .forth-employer > .image-forth,
-.second-section > .employers > .five-employer > .image-fith {
-    width: 100%;
-}
-
-.second-section > .employers > .third-employer > .image-third {
-    background-color: var(--light-blue);
-}
-
-.second-section > .employers > .forth-employer > .image-forth {
-    background-color: var(--light-orange);
-}
-
-.second-section > .employers > .five-employer > .image-fith {
-    background-color: var(--light-green);
-
-    border-bottom-right-radius: 5rem;
-}
-
-.second-section > .employers > .third-employer > .informations,
-.second-section > .employers > .forth-employer > .informations,
-.second-section > .employers > .five-employer > .informations {
-    position: absolute;
-    bottom: 6%;
-    left: 5%;
-
-    color: var(--white);
-}
-
-.second-section > .employers > .third-employer > .informations > .name,
-.second-section > .employers > .forth-employer > .informations > .name,
-.second-section > .employers > .five-employer > .informations > .name {
-    font-size: 3rem;
-}
-
-.second-section > .employers > .third-employer > .informations > .profission,
-.second-section > .employers > .forth-employer > .informations > .profission,
-.second-section > .employers > .five-employer > .informations > .profission {
-    font-size: 1.8rem;
-
-    margin-top: 1rem;
+.card .info p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
 }
