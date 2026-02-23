@@ -19,7 +19,7 @@ header > .apresentation {
 header > .apresentation > .team {
     color: var(--blue);
 
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.5rem;
 }
 
@@ -27,7 +27,7 @@ header > .apresentation > .title {
     margin-top: 1rem;
 
     font-size: 6rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 header > .apresentation > .description {
