@@ -103,3 +103,51 @@ header > .description {
     background: var(--pink);
     border-top-right-radius: 2rem;
 }
+
+.card.members {
+    background: url(../resources/Background_decor.svg) no-repeat center / contain var(--white-gray);
+    border-bottom-left-radius: 2rem;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card.members > .see-members {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card.members > img {
+    width: 2rem;
+    height: 2rem;
+
+    transition: .5s;
+}
+
+.card.members > img:hover {
+    transform: scale(1.5);
+}
+
+.card.employee-3 > .informations {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    padding: 1rem;
+
+    font-size: 1.4rem;
+
+    color: var(--white);
+}
+
+.card.employee-3 {
+    background: var(--light-blue);
+}
