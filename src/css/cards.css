@@ -5,12 +5,12 @@ body {
   justify-content: center;
   height: 100vh;
 
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
 
   box-sizing: border-box;
 
-  max-width: 1400px;
+  max-width: 1350px;
 }
 
 main {
@@ -51,7 +51,7 @@ header > .description {
 
     color: var(--black-gray);
 
-    width: 70%;
+    width: 75%;
 }
 
 .card {
@@ -63,45 +63,46 @@ header > .description {
     height: 100%;
 }
 
-.card.employee-1 > .informations {
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    
-    padding: 1rem;
-
-    font-size: 1.6rem;
-
-    color: var(--white);
-}
-
-.employee-1 {
+.card.employee-1 {
     background: var(--light-violet);
 }
 
-.card.employee-2 > .informations {
+.card.employee-2 {
+    background: var(--pink);
+
+    border-top-right-radius: 2rem;
+}
+
+.card.employee-3 {
+    background: var(--light-blue);
+}
+
+.card.employee-4 {
+    background: var(--light-orange);
+}
+
+.card.employee-5 {
+    background: var(--light-green);
+
+    border-bottom-right-radius: 2rem;
+}
+
+.card.employee-1 > .informations, 
+.card.employee-2 > .informations,
+.card.employee-3 > .informations, 
+.card.employee-4 > .informations, 
+.card.employee-5 > .informations {
     position: absolute;
-    left: 2%;
-    bottom: 2%;
+    left: 4%;
+    bottom: 4%;
 
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: .5rem;
     
-    padding: 1rem;
-
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
     color: var(--white);
-}
-
-.employee-2 {
-    background: var(--pink);
-    border-top-right-radius: 2rem;
 }
 
 .card.members {
@@ -125,71 +126,10 @@ header > .description {
     width: 2rem;
     height: 2rem;
 
-    transition: .5s;
+    transition: .3s;
 }
 
 .card.members > img:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
-.card.employee-3 {
-    background: var(--light-blue);
-}
-
-.card.employee-3 > .informations {
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    
-    padding: 1rem;
-
-    font-size: 1.4rem;
-
-    color: var(--white);
-}
-
-.card.employee-4 {
-    background: var(--light-orange);
-}
-
-.card.employee-4 > .informations {
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    
-    padding: 1rem;
-
-    font-size: 1.4rem;
-
-    color: var(--white);
-}
-
-.card.employee-5 {
-    background: var(--light-green);
-
-    border-bottom-right-radius: 2rem;
-}
-
-.card.employee-5 > .informations {
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    
-    padding: 1rem;
-
-    font-size: 1.4rem;
-
-    color: var(--white);
-}
