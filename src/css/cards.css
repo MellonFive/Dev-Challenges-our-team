@@ -107,8 +107,9 @@ header > .description {
 
 .card.members {
     background: url(../resources/Background_decor.svg) no-repeat center / contain var(--white-gray);
-    border-bottom-left-radius: 2rem;
 
+    border-bottom-left-radius: 2rem;
+    
     display: flex;
     align-items: flex-end;
     gap: 1rem;
