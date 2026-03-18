@@ -4,15 +4,20 @@
     grid-template-rows: repeat(3, 1fr);
 
     height: 100vh;
+
+    padding: 3rem;
   }
 
   header {
     grid-column: 1 / 4;
 
-    padding: 4rem;
+    padding: 5rem 4rem 10rem;
 
     background-image: url(../resources/Background_decor.svg); /* PRECISA ARRUMAR A IMAGEM DE FUNDO! */
+    
     gap: 1.2rem;
+
+    border-top-right-radius: 2rem;
   }
 
   header > .link {
@@ -27,13 +32,33 @@
   }
 
   header > .description {
-    width: 60%;
+    width: 65%;
 
     font-size: 1.8rem;
+
+    line-height: 2.5rem;
   }
 
   .card.employee-2 {
     border-top-right-radius: 0;
+  }
+
+  .card.employee-1 > .informations,
+  .card.employee-2 > .informations,
+  .card.employee-3 > .informations,
+  .card.employee-4 > .informations,
+  .card.employee-5 > .informations {
+    font-size: 1.8rem;
+  }
+
+  .card.members > .see-members {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .card.members > img {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .card.members {
