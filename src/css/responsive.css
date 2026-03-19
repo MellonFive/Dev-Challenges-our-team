@@ -130,6 +130,10 @@
 }
 
 @media (max-width: 420px) {
+  main {
+    padding: 2rem;
+  }
+
   header > .link {
     font-size: 2.5rem;
   }
