@@ -51,6 +51,10 @@
     font-size: 1.8rem;
   }
 
+  .card.members {
+    background-image: none;
+  }
+
   .card.members > .see-members {
     font-size: 1.8rem;
     font-weight: bold;
