@@ -32,9 +32,9 @@
   }
 
   header > .description {
-    width: 63%;
+    width: 75%;
 
-    font-size: 1.8rem;
+    font-size: 2rem;
 
     line-height: 2.5rem;
   }
@@ -111,16 +111,14 @@
   .card.members {
     display: grid;
     grid-template-rows: 50rem;
-    
+
     order: 1;
-    
+
     background-image: none;
-    
+
     border-bottom-left-radius: 0;
-    
-    margin-bottom: 4rem;
   }
-  
+
   .card.members > .see-members {
     font-size: 2rem;
     font-weight: bold;
@@ -128,5 +126,23 @@
 
   .card.employee-5 {
     border-bottom-right-radius: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  header > .link {
+    font-size: 2.5rem;
+  }
+
+  header > .title {
+    font-size: 3.5rem;
+  }
+
+  header > .description {
+    width: 100%;
+
+    font-size: 1.5rem;
+
+    line-height: 2.5rem;
   }
 }
