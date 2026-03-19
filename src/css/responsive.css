@@ -139,9 +139,9 @@
   }
 
   header > .description {
-    width: 100%;
+    width: 70%;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
     line-height: 2.5rem;
   }
