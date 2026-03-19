@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  max-width: 1500px;
+  max-width: 1300px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
