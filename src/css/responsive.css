@@ -134,16 +134,20 @@
     padding: 2rem;
   }
 
+  header {
+    background-image: none;
+  }
+
   header > .link {
     font-size: 2.5rem;
   }
 
   header > .title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   header > .description {
-    width: 80%;
+    width: 90%;
 
     font-size: 1.5rem;
 
