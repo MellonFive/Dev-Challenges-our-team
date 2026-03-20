@@ -52,6 +52,6 @@ Abra o arquivo index.html diretamente no seu navegador ou utilize a extensão Li
 
 ## 👤 Autor
 
-GitHub - mellonFiveDev
+GitHub - <a href="https://github.com/MellonFive">mellonFiveDev</a>
 
-LinkedIn - Felipe Castelli Mellão
+LinkedIn - <a href="https://www.linkedin.com/in/felipecastellimellao/">Felipe Castelli Mellão</a>
