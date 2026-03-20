@@ -4,6 +4,7 @@
 
 <p align="center">
 Este projeto é uma seção de equipe responsiva que apresenta os membros de uma organização com um layout moderno e limpo. O foco principal foi praticar o posicionamento de elementos e a adaptabilidade para diferentes tamanhos de tela.
+Colocar em práticas meus aprendizados com Grid CSS.
 </p>
 
 ## O que eu aprendi:
