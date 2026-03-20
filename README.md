@@ -13,9 +13,9 @@ Colocar em práticas meus aprendizados com Grid CSS.
 Modularização de CSS: Organizei o estilo em múltiplos arquivos (container.css, cards.css, responsive.css) para manter o código mais limpo.
 </p>
 
-<strong>CSS Grid & Flexbox: Essencial para criar a grade de fotos que se ajusta entre desktop e mobile.</strong>
+<p><strong>CSS Grid & Flexbox: Essencial para criar a grade de fotos que se ajusta entre desktop e mobile.</strong></p>
 
-Algumas práticas de CSS para fazer menos códigos, como por exemplo, deixar genérico as classes utilizando e(,) no CSS. 
+Algumas práticas de CSS para fazer menos códigos, como por exemplo, deixar genérico as classes utilizando e(,) no CSS: 
 
 ```css
 .card.employee-1 > .informations,
@@ -32,7 +32,8 @@ CSS3 (Variáveis, Flexbox, Grid e Media Queries)
 
 Google Fonts (Fonte Outfit)
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
+
 [x] Layout responsivo (Mobile, Tablet e Desktop).
 
 [x] Hover effects nos cards (opcional, mas recomendado).
