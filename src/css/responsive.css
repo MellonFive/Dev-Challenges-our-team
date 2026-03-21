@@ -110,8 +110,8 @@
 
   .card.members {
     display: grid;
-    grid-template-rows: 50rem;
-
+    grid-template-rows: 32rem;
+    
     order: 1;
 
     background-image: none;
