@@ -7,7 +7,7 @@ Este projeto é uma seção de equipe responsiva que apresenta os membros de uma
 Colocar em práticas meus aprendizados com Grid CSS.
 </p>
 
-## O que eu aprendi:
+## O que eu aprendi
 
 <p align="center">
 Modularização de CSS: Organizei o estilo em múltiplos arquivos (container.css, cards.css, responsive.css) para manter o código mais limpo.
@@ -15,7 +15,7 @@ Modularização de CSS: Organizei o estilo em múltiplos arquivos (container.css
 
 <p><strong>CSS Grid & Flexbox: Essencial para criar a grade de fotos que se ajusta entre desktop e mobile.</strong></p>
 
-Algumas práticas de CSS para fazer menos códigos, como por exemplo, deixar genérico as classes utilizando e(,) no CSS: 
+Algumas práticas de CSS para fazer menos códigos, como por exemplo, deixar genérico as classes utilizando e(,) no CSS ou posso chamar de seletor de agrupamento:
 
 ```css
 .card.employee-1 > .informations,
@@ -24,7 +24,7 @@ Algumas práticas de CSS para fazer menos códigos, como por exemplo, deixar gen
 }
 ```
 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas
 
 HTML5 (Marcação semântica)
 
