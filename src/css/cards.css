@@ -93,7 +93,7 @@ header > .description {
 .card.employee-4 > .informations,
 .card.employee-5 > .informations {
   position: absolute;
-  left: 4%;
+  left: 6%;
   bottom: 4%;
 
   display: flex;
