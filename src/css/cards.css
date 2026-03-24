@@ -13,6 +13,8 @@ main {
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  overflow: hidden;
 }
 
 header {
@@ -61,6 +63,8 @@ header > .description {
 .card > img {
   width: 100%;
   height: 100%;
+
+  object-fit: cover;
 }
 
 .card.employee-1 {
@@ -93,8 +97,8 @@ header > .description {
 .card.employee-4 > .informations,
 .card.employee-5 > .informations {
   position: absolute;
-  left: 6%;
-  bottom: 4%;
+  left: 8%;
+  bottom: 6%;
 
   display: flex;
   flex-direction: column;
